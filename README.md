@@ -11,14 +11,13 @@ RUN THESE COMMANDS.
 
 # Install pip on your Raspberry Pi
 
-
 The Python package manager, “pip”, can be obtained via wget:
 Run These Commands
 
     $ wget https://bootstrap.pypa.io/get-pip.py
     $ sudo python3 get-pip.py
 
-# Install OpenCV into a virtual environment with pip on your Raspberry Pi
+# Setup Virtual Environments on your Raspberry Pi
 Virtual environments are definitely the way to go if your Raspberry Pi has multiple purposes. They won't interfere with your system libraries.
 
     $ pip install virtualenv virtualenvwrapper
@@ -46,10 +45,10 @@ Terminal output will be printed indicating that virtualenvwrapper is ready. Be s
 
 You now have access to new terminal commands:
 
-Create an environment with mkvirtualenv
-Activate an environment (or switch to a different one) with workon
-Deactivate an environment with deactivate
-Remove an environment with rmvirtualenv
+1. Create an environment with mkvirtualenv
+2. Activate an environment (or switch to a different one) with workon
+3. Deactivate an environment with deactivate
+4. Remove an environment with rmvirtualenv
 
     
 # Installation
