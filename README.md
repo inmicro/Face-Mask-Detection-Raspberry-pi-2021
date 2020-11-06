@@ -103,11 +103,11 @@ And Use the script demarcated for the pi camera:
 # Competition
 
 You may be thinking, why should I not use another repository. 
-I thought that too. The problem was that there wass't one that actually was as good as I wanted it to be.
+I thought that too. The problem was that there was't one that actually was as good as I wanted it to be.
 
 There were many crashes, many too slow for my liking and many that were just plain BAD.
 
-In the end there wer only two contenders.
+In the end there were only two contenders.
 
 Chandrika Deb's Face Mask detection: Pros- Very fast, well coded and pretty nice overall.
 Cons: Extremely hard setup for beginners and crashes in newer versions with a lot of package resolving required. A beginner would require 10 HOURS to set it up.
