@@ -6,7 +6,8 @@ Uilizing Tensorflow and openCV frameworks, we have created a Face Mask Detection
 Skip Over to 'Installing Prerequisites' if you already have your mind made up.
 
 This is a repository that is to run a Mask Detection System on your RASPBERRY PI 2 / 3B / 3B+ / 4.
-This has been tested on a Raspberry Pi 3B. It runs super smooth at 4fps.
+This has been tested on a Raspberry Pi 3B. It runs super smooth at 10fps.
+Upon little overclocking, the fps is 23 fps
 
 It is very fast(<1 second for full detection), accurate( 3000+ images and 90% accuracy rate) and can be deployed in areas with heavy traffic (can recognise ten people at once).
 # Install prerequisites on your Raspberry Pi 
@@ -98,3 +99,18 @@ For Realtime Virtual Streams, use:
 And Use the script demarcated for the pi camera:
 
         $ python3 detect_mask_video_picamera.py 
+
+# Competition
+
+You may be thinking, why should I not use another repository. 
+I thought that too. The problem was that there wass't one that actually was as good as I wanted it to be.
+
+There were many crashes, many too slow for my liking and many that were just plain BAD.
+
+In the end there wer only two contenders.
+
+Chandrika Deb's Face Mask detection: Pros- Very fast, well coded and pretty nice overall.
+Cons: Extremely hard setup for beginners and crashes in newer versions with a lot of package resolving required. A beginner would require 10 HOURS to set it up.
+
+Q engineering's FMD64: Pros Optimised for rpi4.
+Cons: Not working on older pi's. very slow. Written in C++(ugh)
