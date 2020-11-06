@@ -1,6 +1,15 @@
 # Face-Mask-Detection-Raspberry-Pi
 Uilizing Tensorflow and openCV frameworks, we have created a Face Mask Detection Software Script. It takes 10 Minutes to setup and run on a Raspberry Pi.
-# Install prerequisites on your Raspberry Pi
+
+# The Need For it
+
+Skip Over to 'Installing Prerequisites' if you already have your mind made up.
+
+This is a repository that is to run a Mask Detection System on your RASPBERRY PI 2 / 3B / 3B+ / 4.
+This has been tested on a Raspberry Pi 3B. It runs super smooth at 4fps.
+
+It is very fast(<1 second for full detection), accurate( 3000+ images and 90% accuracy rate) and can be deployed in areas with heavy traffic (can recognise ten people at once).
+# Install prerequisites on your Raspberry Pi 
 The Raspberry Pi requires that you install a few system packages before you get started:
 RUN THESE COMMANDS.
 
