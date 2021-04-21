@@ -14,7 +14,7 @@ It is very fast(<1 second for full detection), accurate( 3000+ images and 90% ac
 The Raspberry Pi requires that you install a few system packages before you get started:
 RUN THESE COMMANDS.
 
-    $ sudo apt-get install libhdf5-dev libhdf5-serial-dev libhdf5-100
+    $ sudo apt-get install libhdf5-dev libhdf5-serial-dev libhdf5-103
     $ sudo apt-get install libqtgui4 libqtwebkit4 libqt4-test python3-pyqt5
     $ sudo apt-get install libatlas-base-dev
     $ sudo apt-get install libjasper-dev
